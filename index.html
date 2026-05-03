@@ -287,6 +287,32 @@ body {
   margin: 0 auto;
 }
 
+/* FREE READING BUTTON */
+.free-reading-section {
+  text-align: center;
+  padding: 20px 32px 72px;
+  position: relative; z-index:1;
+}
+.free-reading-btn {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: clamp(0.72rem, 1.8vw, 0.88rem);
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  border: 1px solid rgba(201,169,110,0.4);
+  border-radius: 40px;
+  padding: 16px 42px;
+  text-decoration: none;
+  transition: background 0.3s, border-color 0.3s, box-shadow 0.3s;
+  background: rgba(201,169,110,0.04);
+}
+.free-reading-btn:hover {
+  background: rgba(201,169,110,0.1);
+  border-color: rgba(201,169,110,0.7);
+  box-shadow: 0 0 28px rgba(201,169,110,0.15);
+}
+
 /* FOOTER */
 footer {
   border-top: 1px solid rgba(201,169,110,0.1);
@@ -436,6 +462,12 @@ footer {
 <div class="divider reveal"><div class="divider-line"></div><div class="divider-gem">✦</div><div class="divider-line"></div></div>
 <section class="crystal-quote reveal">
   <p class="cq-text">Every Reading is grounded and closed by a Crystal Spirit</p>
+</section>
+
+<!-- FREE READING BUTTON -->
+<div class="divider reveal"><div class="divider-line"></div><div class="divider-gem">✦</div><div class="divider-line"></div></div>
+<section class="free-reading-section reveal">
+  <a class="free-reading-btn" href="free-reading.html">✦ &nbsp; Draw Your Free Daily Card &nbsp; ✦</a>
 </section>
 
 <!-- FOOTER -->
